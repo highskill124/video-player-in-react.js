@@ -8,29 +8,12 @@ export const Home = (props) => {
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>
-              <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : 'loading...'}</p>
-              <h3>Why Choose Us?</h3>
-              <div className='list-style'>
-                <div className='col-lg-6 col-sm-6 col-xs-12'>
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : 'loading'}
-                  </ul>
-                </div>
-                <div className='col-lg-6 col-sm-6 col-xs-12'>
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : 'loading'}
-                  </ul>
-                </div>
-              </div>
+              <h2>GPU Compute.</h2>
+              <h2>Affordable Cost.</h2>
+              <br/>
+              <h3>Save up to 50% on your GPU Compute costs and easily scale as you grow.</h3>
+              <br/>
+              <h3>Over-paying for compute cost is so 2020.</h3>
             </div>
           </div>
           <div className='col-xs-12 col-md-6'>

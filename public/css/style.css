@@ -3,6 +3,7 @@ body, html {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
+	background: #e0eff7;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -11,10 +12,9 @@ h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
-	text-transform: uppercase;
 	margin: 0 0 20px 0;
-	font-weight: 800;
-	font-size: 36px;
+	font-weight: 600;
+	font-size: 43px;
 	color: #333;
 }
 h3 {
@@ -192,17 +192,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #about h2 {
 	position: relative;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: #5b55b9;
 }
-#about h2::after {
-	position: absolute;
-	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	left: 0;
+#about h3 {
+	color: #5b55b9;
 }
 #about .about-text li {
 	margin-bottom: 6px;
