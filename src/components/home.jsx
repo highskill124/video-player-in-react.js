@@ -1,9 +1,6 @@
 export const Home = (props) => {
   return (
-    <div id='about' style={{
-      position: 'absolute', left: '50%', top: '50%',
-      transform: 'translate(-50%, -50%)'
-    }}>
+    <div id='about'>
       <div className='container'>
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
