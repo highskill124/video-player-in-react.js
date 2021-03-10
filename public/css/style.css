@@ -35,10 +35,6 @@ h5 {
 p {
 	font-size: 15px;
 }
-p.intro {
-	margin: 12px 0 0;
-	line-height: 24px;
-}
 a {
 	color: #608dfd;
 	font-weight: 400;
@@ -223,4 +219,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+}
+
+.intro {
+	background: url(../img/computer.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.video {
+	position: relative;
+	left: 10.7%;
+	bottom: 17px;
+	width: 79%;
+	height: 344px;
 }

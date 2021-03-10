@@ -21,7 +21,7 @@ export const Navigation = (props) => {
             <img src='img/ARC_Compute.svg' style={{"width" : "100%", "marginTop" : "-35%"}} alt="logo" />
           </a>{' '}
           <a className='navbar-brand page-scroll' href='/' style={{"color" : "#5b55b9"}}>
-            ARC COMPUTE
+            A R C &nbsp; C O M P U T E
           </a>{' '}
         </div>
         <div

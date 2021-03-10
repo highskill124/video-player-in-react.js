@@ -16,9 +16,10 @@ export const Home = (props) => {
               <h3>Over-paying for compute cost is so 2020.</h3>
             </div>
           </div>
-          <div className='col-xs-12 col-md-6'>
-            {' '}
-            <img src='img/about.jpg' className='img-responsive' alt='' />{' '}
+          <div className='col-xs-12 col-md-6 intro'>
+            <video autoPlay loop={true} className='video'>
+              <source src="img/streamingapp.mp4" type="video/mp4"/>
+            </video>
           </div>
         </div>
       </div>
